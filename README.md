@@ -47,7 +47,7 @@ You can specify the actions to be taken when the buttons are clicked with the fo
 #### *Styling Props*
 The component provides a wide range of styling props to customize the modal, title, and buttons. Here are the available styling props:
 
-##### **For Modal**
+### **For Modal**
 
 **Modifiers**
 
@@ -66,7 +66,7 @@ The component provides a wide range of styling props to customize the modal, tit
     />   
 ```
 
-##### **For Title**
+### **For Title**
 
 **Modifiers**
 
@@ -83,7 +83,7 @@ The component provides a wide range of styling props to customize the modal, tit
     margin: marginTitle, // Sets the margin for the title, controlling the space around the outside.
       
 ```
-##### **For Buttons**
+### **For Buttons**
 
 **Modifiers**
 
@@ -133,7 +133,7 @@ The component provides a wide range of styling props to customize the modal, tit
     />    
 ```
 
-##### **Animation** 
+### **Animation** 
 
 For animations, simply modify the .modal__box__button:hover class in your css and add your code
 
