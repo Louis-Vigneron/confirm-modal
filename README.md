@@ -14,7 +14,7 @@ npm install modal-confirm
 ### **To install**
 
 ```javascript
-import { ModalConfirm }  from "modal-confirm" ;
+import { ModalConfirmation }  from "modal-confirm" ;
 
 function ModalConfirm() {
   

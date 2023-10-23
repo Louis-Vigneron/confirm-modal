@@ -1,18 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Modal from "./lib/ModalConfirm"
-import './lib/modal.css';
+import App from "./examples/App";
 
-const App = () => (  
-    
-    <Modal title ='Modal Confirmation' handleCancelClick={''} handleConfirmClick={''}/>
-  
-);
+import "./index.css";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>
-);
-
+ReactDOM.render(<App />, document.getElementById("root"));
