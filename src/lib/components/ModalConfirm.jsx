@@ -1,4 +1,6 @@
-export default function Modal({handleCancelClick, handleConfirmClick, title} ) {
+import "./modal.css"
+
+export default function ModalConfirmation({handleCancelClick, handleConfirmClick, title} ) {
  
     return (
         <div className="modal">
