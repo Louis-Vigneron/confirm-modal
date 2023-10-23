@@ -12,12 +12,9 @@ npm install modal-confirm
 ## **How to use**
 
 ### **To install**
-```javascript
-`import { ModalConfirm }  from "" `
-```
 
 ```javascript
-import ModalConfirmation from "../Modal/Modal";
+import { ModalConfirm }  from "modal-confirm" ;
 
 function ModalConfirm() {
   
