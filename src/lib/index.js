@@ -1,3 +1,1 @@
-import ModalConfirmation from "./components/ModalConfirm";
-
-export { ModalConfirmation };
+export { default as ModalConfirmation } from "./components/ModalConfirm";

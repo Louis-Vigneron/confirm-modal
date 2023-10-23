@@ -1,18 +1,26 @@
 {
-  "name": "confirm-modal",
-  "version": "0.1.0",
-  "main": "dist/index.js",  
-  "module": "dist/index.js",  
-  "files": [ "dist", "README.md" ],  
+  "name": "confirmation-modal",
+  "version": "1.0.6",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "web-vitals": "^2.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Louis-Vigneron/confirm-modal.git"
+  },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__",
+    "build": "rd /s /q dist && set NODE_ENV=production&& babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -35,10 +43,10 @@
     ]
   },
   "devDependencies": {
-    
+    "@babel/preset-env": "^7.23.2",    
+    "@babel/cli": "^7.23.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "babel-cli": "^6.26.0"
+    "react-scripts": "5.0.1"
   }
 }
