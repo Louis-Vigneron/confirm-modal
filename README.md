@@ -17,7 +17,7 @@ npm install modal-confirm
 ```
 
 ```javascript
-import Modal from "../Modal/Modal";
+import ModalConfirmation from "../Modal/Modal";
 
 function ModalConfirm() {
   
@@ -28,7 +28,7 @@ function ModalConfirm() {
        alert('Confirm')
     }
     return (        
-            <Modal title ='Modal Confirmation' handleCancelClick={handleCancelClick} handleConfirmClick={handleConfirmClick}/>        
+            <ModalConfirmation title ='Modal Confirmation' handleCancelClick={handleCancelClick} handleConfirmClick={handleConfirmClick}/>        
     )
 }
 ```
@@ -37,7 +37,7 @@ function ModalConfirm() {
 #### **For Modal**
 
 **Example :**
-```
+```css
 .modal {
     position: absolute;
     top: 40%;
@@ -56,7 +56,7 @@ function ModalConfirm() {
 #### **For Title**
 
 **Example :** 
-```
+```css
 .modal__title {
     width: 100%;
     margin: 0;
@@ -66,7 +66,7 @@ function ModalConfirm() {
 #### **For Box Buttons**
 
 **Example :** 
-```
+```css
 .modal__box {
     width: 100%;
     display: flex;
@@ -76,7 +76,7 @@ function ModalConfirm() {
 #### **For Buttons**
 
 **Example without animation :** 
-```
+```css
 .modal__box__button {
     width: 25%;
     padding: 5px 0;
@@ -88,7 +88,7 @@ function ModalConfirm() {
 }
 ```
 **Example with animation :** 
-```
+```css
 .modal__box__button {
     width: 25%;
     padding: 5px 0;
